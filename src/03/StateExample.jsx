@@ -11,6 +11,7 @@ class StateExample extends Component {
     this.handleData = this.handleData.bind(this);
     setTimeout(this.handleData, 4000);
   }
+
   handleData() {
     const data = 'new data';
     const { formData } = this.state;
