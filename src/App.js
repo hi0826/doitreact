@@ -13,14 +13,14 @@ import LifecycleExample from './03/LifecycleExample';
 import NewCounter from './03/NewCounter';
 import TodaysPlanApp from './03/TodaysPlanApp';
 import SFCTodaysPlanApp from './03/SFCTodaysPlanApp';
+import ListExample from './03/ListExample';
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <TodaysPlanApp />
-        <SFCTodaysPlanApp hasPlan={true} />
+        <ListExample />
       </div>
     );
   }
