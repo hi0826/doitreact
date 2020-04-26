@@ -14,13 +14,16 @@ import NewCounter from './03/NewCounter';
 import TodaysPlanApp from './03/TodaysPlanApp';
 import SFCTodaysPlanApp from './03/SFCTodaysPlanApp';
 import ListExample from './03/ListExample';
+import CounterApp from './03/CounterApp';
+import ScrollSpy from './03/ScrollSpy';
+import Counter3 from './03/Counter3';
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <ListExample />
+        <Counter3 />
       </div>
     );
   }
