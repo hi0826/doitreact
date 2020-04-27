@@ -17,13 +17,14 @@ import ListExample from './03/ListExample';
 import CounterApp from './03/CounterApp';
 import ScrollSpy from './03/ScrollSpy';
 import Counter3 from './03/Counter3';
+import Input from './03/Input';
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Counter3 />
+        <Input name={'inputbox'} />
       </div>
     );
   }
